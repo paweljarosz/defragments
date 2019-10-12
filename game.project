@@ -1,0 +1,13 @@
+[bootstrap]
+main_collection = /main/main.collectionc
+
+[script]
+shared_state = 1
+
+[project]
+title = Defragments_Defold_Shaders
+
+[display]
+width = 1024
+height = 1024
+

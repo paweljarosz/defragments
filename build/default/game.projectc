@@ -1,0 +1,150 @@
+[android]
+debuggable = 0
+iap_provider = GooglePlay
+immersive_mode = 0
+input_method = KeyEvent
+manifest = /builtins/manifests/android/AndroidManifest.xml
+minimum_sdk_version = 16
+package = com.example.todo
+target_sdk_version = 28
+version_code = 1
+
+[bootstrap]
+main_collection = /main/main.collectionc
+render = /builtins/render/default.renderc
+
+[collection]
+max_instances = 1024
+
+[collection_proxy]
+max_count = 8
+
+[collectionfactory]
+max_count = 128
+
+[display]
+display_profiles = /builtins/render/default.display_profilesc
+dynamic_orientation = 0
+fullscreen = 0
+height = 1024
+high_dpi = 0
+samples = 0
+update_frequency = 0
+variable_dt = 0
+vsync = 1
+width = 1024
+
+[factory]
+max_count = 128
+
+[graphics]
+default_texture_mag_filter = linear
+default_texture_min_filter = linear
+max_characters = 8192
+max_debug_vertices = 10000
+max_draw_calls = 1024
+texture_profiles = /builtins/graphics/default.texture_profilesc
+
+[gui]
+max_count = 64
+max_particle_count = 1024
+max_particlefx_count = 64
+
+[html5]
+archive_location_prefix = archive
+cssfile = /builtins/manifests/web/light_theme.css
+custom_heap_size = 0
+heap_size = 256
+htmlfile = /builtins/manifests/web/engine_template.html
+scale_mode = downscale_fit
+set_custom_heap_size = 0
+show_fullscreen_button = 1
+show_made_with_defold = 1
+
+[iap]
+auto_finish_transactions = 1
+
+[input]
+game_binding = /input/game.input_bindingc
+gamepads = /builtins/input/default.gamepadsc
+repeat_delay = 0.5
+repeat_interval = 0.2
+use_accelerometer = 1
+
+[ios]
+bundle_identifier = example.unnamed
+infoplist = /builtins/manifests/ios/Info.plist
+pre_renderered_icons = 0
+
+[label]
+max_count = 64
+subpixels = 1
+
+[liveupdate]
+settings = /liveupdate.settings
+
+[model]
+max_count = 128
+
+[network]
+http_timeout = 0.0
+
+[osx]
+bundle_identifier = example.unnamed
+infoplist = /builtins/manifests/osx/Info.plist
+
+[particle_fx]
+max_count = 64
+max_particle_count = 1024
+
+[physics]
+contact_impulse_limit = 0.0
+debug = 0
+debug_alpha = 0.9
+debug_scale = 30.0
+gravity_x = 0.0
+gravity_y = -10.0
+gravity_z = 0.0
+max_collisions = 64
+max_contacts = 128
+ray_cast_limit_2d = 64
+ray_cast_limit_3d = 128
+scale = 1.0
+trigger_overlap_capacity = 16
+type = 2D
+world_count = 4
+
+[profiler]
+track_cpu = 0
+
+[project]
+compress_archive = 1
+title = Defragments_Defold_Shaders
+version = 1.0
+write_log = 0
+
+[resource]
+http_cache = 0
+max_resources = 1024
+
+[script]
+shared_state = 1
+
+[sound]
+gain = 1.0
+max_sound_buffers = 32
+max_sound_data = 128
+max_sound_instances = 256
+max_sound_sources = 16
+
+[spine]
+max_count = 128
+
+[sprite]
+max_count = 128
+subpixels = 1
+
+[tilemap]
+max_count = 16
+max_tile_count = 2048
+

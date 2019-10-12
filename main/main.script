@@ -1,0 +1,18 @@
+function init(self)
+	self.time = 0
+	msg.post(".", "acquire_input_focus")
+	sprite.set_constant("#sprite", "iResolution", vmath.vector4(1024.0, 1024.0, 0,0))
+end
+
+function update(self, dt)
+	self.time = self.time + dt
+	sprite.set_constant("#sprite", "iTime", vmath.vector4(self.time, 0,0,0))
+end
+
+function on_input(self, action_id, action)
+	if action_id == hash("touch") and not action.released then
+
+		sprite.set_constant("#sprite", "iMouse", vmath.vector4(action.x, action.y, 0,0))
+
+	end
+end
